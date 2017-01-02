@@ -27,8 +27,8 @@ class ZhihuHtml(object):
         captcha = input('请输入验证码：')
         lo_info = {
             '_xsrf': xsrf[0],
-            'phone_num': '15622371802',
-            'password': 'hellozhihu123',
+            'phone_num': 'xxxxxxxxxxx',
+            'password': 'xxxxxxxxxxx',
             'captcha': captcha
         }
         res = self.PostData(self.login_url, lo_info, self.header)
